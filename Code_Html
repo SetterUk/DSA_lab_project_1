@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AlgoGenius</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section id="experiment-list">
+            
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AlgoGenius </p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

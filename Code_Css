@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a0303;
+    color: #333;
+}
+
+
+header {
+    background-color: #041e3a;
+    color: white;
+    padding: 8px 0;
+    text-align:left;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#experiment-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.experiment-card {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.5s ease;
+}
+
+.experiment-card:hover {
+    transform:scale(1.1);
+    background-color: #06315e;
+}
+
+.experiment-card h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.experiment-card p {
+    color: #666;
+}
+
+.experiment-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.experiment-card a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top:190px;
+}
